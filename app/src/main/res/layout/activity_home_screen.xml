@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trending_background_"
+    tools:context=".HomeScreen">
+
+  <!--https://www.youtube.com/watch?v=ejbX9MO2ems
+  // Android Dashboard Screen Layout Design | UI Design | Android Studio -->
+
+
+  <!-- //https://www.youtube.com/watch?v=VX5nxFwAQ-M Adding image button -->
+
+
+  <ImageView
+      android:id="@+id/imageView8"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:contentDescription="@string/app_name"
+      android:src="@drawable/ic_fav"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.057"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.752"
+      app:tint="@color/black" />
+
+  <TextView
+      android:id="@+id/textTrending"
+      android:layout_width="258dp"
+      android:layout_height="45dp"
+      android:background="@drawable/white_rectangle_background"
+      android:paddingStart="8dp"
+      android:paddingTop="2dp"
+      android:paddingEnd="8dp"
+      android:paddingBottom="2dp"
+      android:text="@string/trending"
+      android:textColor="@color/black"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.758" />
+
+  <TextView
+      android:id="@+id/textWelcome"
+      android:layout_width="331dp"
+      android:layout_height="83dp"
+      android:gravity="center"
+      android:text="Welcome to Count Your Carbon"
+      android:textColor="@color/white"
+      android:textSize="30dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.266" />
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="158dp"
+      android:layout_height="139dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.068"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.467"
+      app:srcCompat="@drawable/calculator" />
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="139dp"
+      android:layout_height="143dp"
+      android:layout_marginEnd="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.703"
+      app:layout_constraintStart_toEndOf="@+id/imageView5"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.463"
+      app:srcCompat="@drawable/donate" />
+
+  <ImageButton
+      android:id="@+id/imBtnLogin"
+      android:layout_width="70dp"
+      android:layout_height="56dp"
+      app:layout_constraintBottom_toTopOf="@+id/textWelcome"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/imageView9"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.363"
+      app:srcCompat="@drawable/ic_account" />
+
+  <TextView
+      android:id="@+id/txtTrending"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Whats trending right now:"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/textTrending"
+      app:layout_constraintHorizontal_bias="0.505"
+      app:layout_constraintStart_toStartOf="@+id/textTrending"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.755" />
+
+  <Button
+      android:id="@+id/btnCalcul"
+      android:layout_width="142dp"
+      android:layout_height="75dp"
+      android:text="Calculate Your Carbon Footprint Here"
+      android:textSize="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/btnDonate"
+      app:layout_constraintHorizontal_bias="0.295"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.651" />
+
+  <Button
+      android:id="@+id/btnDonate"
+      android:layout_width="135dp"
+      android:layout_height="76dp"
+      android:text="Explore other features here!"
+      android:textSize="10dp"
+      app:layout_constraintBottom_toTopOf="@+id/textTrending"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.848"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView6"
+      app:layout_constraintVertical_bias="0.509" />
+
+  <TextView
+      android:id="@+id/webLink"
+      android:layout_width="353dp"
+      android:layout_height="45dp"
+      android:text="@string/webLink"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="25dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.963" />
+
+  <ImageView
+      android:id="@+id/imageView9"
+      android:layout_width="265dp"
+      android:layout_height="116dp"
+      app:layout_constraintBottom_toTopOf="@+id/textWelcome"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.125"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/ucc" />
+
+  <TextView
+      android:id="@+id/txtMoreInfo"
+      android:layout_width="332dp"
+      android:layout_height="70dp"
+      android:onClick="openMoreInfo"
+      android:text="Learn the Carbon Footprint Basics!"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="25dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="@+id/webLink"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.491"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.909" />
+
+
+  <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottomNavigationView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:backgroundTint="@color/black"
+      app:itemIconSize="30dp"
+      app:labelVisibilityMode="unlabeled"
+      app:layout_constraintBottom_toBottomOf="parent"/>
+      app:menu="@menu/navigation_menu"
+
+    <View
+        android:id="@+id/viewDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+      android:background="@color/black"
+      app:layout_constraintBottom_toTopOf="@id/bottomNavigationView" />
+      -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+

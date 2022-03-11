@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "408275587541",
+    "firebase_url": "https://countyourcarbon-c697e-default-rtdb.firebaseio.com",
+    "project_id": "countyourcarbon-c697e",
+    "storage_bucket": "countyourcarbon-c697e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408275587541:android:25a9b376b390f34c182d5c",
+        "android_client_info": {
+          "package_name": "com.example.countyourcarbon00"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408275587541-ek6sjqk2iqlr0bjgacr90mrdjk7a8rht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUCwOGzcX4VkOAsy-DSIrfzolITi0BbnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408275587541-ek6sjqk2iqlr0bjgacr90mrdjk7a8rht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.countyourcarbon00">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:minSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CountYourCarbon00"
+        tools:replace="android:theme">
+        <activity
+            android:name=".resourceFinder"
+            android:exported="false" />
+        <activity
+            android:name=".thrift"
+            android:exported="false" />
+        <activity
+            android:name=".recycle"
+            android:exported="false" />
+        <activity
+            android:name=".cokeBike"
+            android:exported="false" />
+        <activity
+            android:name=".offsetMenu"
+            android:exported="false" />
+        <activity
+            android:name=".category"
+            android:exported="false" />
+
+        <activity
+            android:name=".moreInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Result"
+            android:exported="false" />
+        <activity
+            android:name=".ImportSurvey"
+            android:exported="false" />
+        <activity
+            android:name=".UserDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".Survey"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UserHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".calcInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettinsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Living3"
+            android:exported="false" />
+        <activity
+            android:name=".Living2"
+            android:exported="false" />
+        <activity
+            android:name=".Living1"
+            android:exported="false" />
+        <activity
+            android:name=".Consumption2"
+            android:exported="false" />
+        <activity
+            android:name=".Consumption1"
+            android:exported="false" />
+        <activity
+            android:name=".Transport2"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmFinalOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminUserProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNewOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddNewProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

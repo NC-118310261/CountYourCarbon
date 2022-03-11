@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">CountYourCarbon</string>
+    <string name="search_elements" />
+    <string name="trending_text" />
+    <string name="trending" />
+    <string name="email" />
+    <string name="password" />
+    <string name="remember_me">Remember me</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="your_text_here">Your text here</string>
+    <string name="submit">Submit</string>
+    <string name="webLink">
+        <a href="https://www.ucc.ie/en/greencampus/about/strategy/">UCC Sustainability Strategy</a>
+    </string>
+    <string name="bikeLink">
+        <a href="https://www.bikeshare.ie/cork.html">Cork City Locations</a>
+    </string>
+    <string name="myGoodness">
+        <a href="https://www.happycow.net/reviews/my-goodness-cork-105957">My Goodness @ English Market</a>
+    </string>
+    <string name="deli">
+        <a href="https://www.happycow.net/reviews/good-day-deli-cork-152050">Good Day Deli @ Nano Nagle Place</a>
+    </string>
+    <string name="pink">
+        <a href="https://www.veganincork.com/2019/06/pink-moon.html">Pink Moon @ Washington Street</a>
+    </string>
+    <string name="sonflour">
+        <a href="https://www.happycow.net/reviews/sonflour-cork-256016">Sonflour @ Castle Street</a>
+    </string>
+    <string name="izz">
+        <a href="https://www.happycow.net/reviews/izz-cafe-cork-168462">Izz Cafe @ Georges Quay</a>
+    </string>
+    <string name="shop">
+        <a href="https://www.veganincork.com/2019/02/vegan-food-shops-in-cork.html">Here!</a>
+    </string>
+    <string name="recycle">
+        <a href="https://www.ucc.ie/en/build/environment/recycling/wheretorecycle/">Here!</a>
+    </string>
+    <string name="jones">
+        <a href="https://www.facebook.com/motherjonesfleamarket/">Mother Jones Flea Market</a>
+    </string>
+    <string name="northMain">
+        <a href="https://www.enableireland.ie/get-involved/retail-shops/shops/cork-north-main-street">Enable Ireland North Main Street</a>
+    </string>
+    <string name="records">
+        <a href="https://www.facebook.com/RecordsandRelics/">Records and Relics</a>
+    </string>
+    <string name="cancerSoc">
+        <a href="https://www.cancer.ie/ways-to-help/shop/irish-cancer-society-charity-shops/cork-charity-shop-castle-st">Irish Cancer Society Castle Street</a>
+    </string>
+    <string name="vincent">
+        <a href="https://www.svp.ie/what-we-do/shops/vincent-s-north-main-street.aspx?gclid=CjwKCAiAvaGRBhBlEiwAiY-yMEMufQkD8dThW4vPeACQwo12uiOEoePzDPVQsaBLcvLsPBqHq32DWBoCAg0QAvD_BwE">SVP North Main Street</a>
+    </string>
+    
+
+    <string-array name="schools">
+        <item>Please select your school of study:</item>
+        <item>Business</item>
+        <item>Law</item>
+        <item>Engineering and Architecture</item>
+        <item>Science and Medicine</item>
+        <item>Arts</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>Please select your age:</item>
+        <item>17 to 19</item>
+        <item>20 to 22</item>
+        <item>22 to 25</item>
+        <item>25+</item>
+    </string-array>
+
+    <string-array name="satisfaction">
+        <item>Please select the most suitable statement:</item>
+        <item>Very satisfied</item>
+        <item>Mildly satisfied</item>
+        <item>Indifferent</item>
+        <item>Not satisfied at all</item>
+    </string-array>
+
+    <string-array name="confidence">
+        <item>Please select the most suitable statement:</item>
+        <item>Very confident</item>
+        <item>Mildly confident</item>
+        <item>Confused</item>
+        <item>Not confident at all</item>
+    </string-array>
+
+    <string-array name="recycling">
+        <item>Please select the most suitable statement:</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Indifferent</item>
+    </string-array>
+
+    <string-array name="food">
+        <item>Please select the most suitable statement:</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Indifferent</item>
+    </string-array>
+
+    <string-array name="food_options">
+        <item>Please select the most suitable statement:</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Indifferent</item>
+    </string-array>
+
+    <string-array name="cups">
+        <item>Please select the most suitable statement:</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Indifferent</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
